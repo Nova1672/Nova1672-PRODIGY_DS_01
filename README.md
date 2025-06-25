@@ -1,22 +1,27 @@
 # Nova1672-PRODIGY_DS_01
-This project visualizes the distribution of a **categorical** (e.g., gender) or **continuous** (e.g., age) variable using a **bar chart** or **histogram**. It is useful for basic exploratory data analysis (EDA) to understand population characteristics in any dataset.
+This project explores and visualizes gender-based development metrics using data from `gender_development.csv`. It includes a series of insightful visualizations comparing male and female indicators across countries, such as life expectancy, education, income, and overall gender development index (GDI).
 
-## 🔧 Features
+## 🧠 Project Highlights
 
-- Bar chart for categorical variables
-- Histogram for continuous variables
-- Automatic plot generation and image saving
+This script (`main.py`) performs the following:
 
-## 📁 Files Included
+- Cleans and prepares gender-related development data.
+- Visualizes:
+  - Top 10 countries by Gender Development Index (GDI)
+  - Life expectancy comparison (Female vs Male)
+  - Expected years of education (Female vs Male)
+  - Income per capita (Female vs Male) using a scatter plot
+  - Distribution of Gender Development Index (GDI) using a histogram
 
-- `visualizer.py` – Python script for data loading and plot generation
-- `data/sample_data.csv` – Sample dataset (replace with your own)
-- `requirements.txt` – Python dependencies
-- `README.md` – Project documentation
+## 📁 Files
 
-## 🚀 How to Use
+- `main.py`: Main Python script with all visualizations
+- `gender_development.csv`: Dataset used for plotting (must be in the same directory)
+- `README.md`: Project documentation
 
-1. **Install dependencies:**
+## 📦 Dependencies
+
+Make sure you have Python 3 installed. Then install the required libraries:
 
 ```bash
-pip install -r requirements.txt
+pip install pandas matplotlib seaborn
